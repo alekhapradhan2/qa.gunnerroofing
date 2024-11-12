@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\ASUS\Desktop\Automation\qa.gunnerroofing.com\qa.gunnerroofing.com\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="AboutUs">AboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="ContactUs">ContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="Financing">Financing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="MyAccount">MyAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="Resources">Resources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="getQuoteinHeader">getQuoteinHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.container1" class="method navigator-link" hash-for-method="getYourQuote_InContainer1">getYourQuote_InContainer1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="ourWork">ourWork</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="services">services</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.Header" class="method navigator-link" hash-for-method="siteImage">siteImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.container1" class="method navigator-link" hash-for-method="slides">slides</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.gunnerroofing.com.qa.gunnerroofing.com.container1" class="method navigator-link" hash-for-method="video">video</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa.gunnerroofing.com.qa.gunnerroofing.com.Header</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AboutUs">
+                  </a> <!-- AboutUs -->
+                  <span class="method-name">AboutUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUs">
+                  </a> <!-- ContactUs -->
+                  <span class="method-name">ContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Financing">
+                  </a> <!-- Financing -->
+                  <span class="method-name">Financing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyAccount">
+                  </a> <!-- MyAccount -->
+                  <span class="method-name">MyAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Resources">
+                  </a> <!-- Resources -->
+                  <span class="method-name">Resources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getQuoteinHeader">
+                  </a> <!-- getQuoteinHeader -->
+                  <span class="method-name">getQuoteinHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ourWork">
+                  </a> <!-- ourWork -->
+                  <span class="method-name">ourWork</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="services">
+                  </a> <!-- services -->
+                  <span class="method-name">services</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="siteImage">
+                  </a> <!-- siteImage -->
+                  <span class="method-name">siteImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa.gunnerroofing.com.qa.gunnerroofing.com.container1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getYourQuote_InContainer1">
+                  </a> <!-- getYourQuote_InContainer1 -->
+                  <span class="method-name">getYourQuote_InContainer1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slides">
+                  </a> <!-- slides -->
+                  <span class="method-name">slides</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="video">
+                  </a> <!-- video -->
+                  <span class="method-name">video</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ASUS\Desktop\Automation\qa.gunnerroofing.com\qa.gunnerroofing.com\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;qa.gunnerroofing.com.qa.gunnerroofing.com.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qa.gunnerroofing.com.qa.gunnerroofing.com.Header&quot;/&gt;
+      &lt;class name=&quot;qa.gunnerroofing.com.qa.gunnerroofing.com.container1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'services')
+data.setCell(0, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(0, 3, 6371);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Resources')
+data.setCell(1, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(1, 3, 4694);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MyAccount')
+data.setCell(2, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(2, 3, 3204);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getQuoteinHeader')
+data.setCell(3, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(3, 3, 2637);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ourWork')
+data.setCell(4, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(4, 3, 2091);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getYourQuote_InContainer1')
+data.setCell(5, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.container1')
+data.setCell(5, 3, 1807);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Financing')
+data.setCell(6, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(6, 3, 1713);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AboutUs')
+data.setCell(7, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(7, 3, 1702);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'siteImage')
+data.setCell(8, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(8, 3, 1419);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'slides')
+data.setCell(9, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.container1')
+data.setCell(9, 3, 1277);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ContactUs')
+data.setCell(10, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.Header')
+data.setCell(10, 3, 1055);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'video')
+data.setCell(11, 2, 'qa.gunnerroofing.com.qa.gunnerroofing.com.container1')
+data.setCell(11, 3, 222);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">qa.gunnerroofing.com.qa.gunnerroofing.com.container1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchUrl</span>
+                <br/>
+                <span class="ignored-method-name">closeSite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.gunnerroofing.com.qa.gunnerroofing.com.Header</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchUrl</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">siteImage</span>
+                <span class="method-start">9449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">services</span>
+                <span class="method-start">11337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Resources</span>
+                <span class="method-start">18757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ourWork</span>
+                <span class="method-start">24049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContactUs</span>
+                <span class="method-start">26635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Financing</span>
+                <span class="method-start">28293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AboutUs</span>
+                <span class="method-start">30587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyAccount</span>
+                <span class="method-start">33177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getQuoteinHeader</span>
+                <span class="method-start">37250 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.gunnerroofing.com.qa.gunnerroofing.com.container1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">slides</span>
+                <span class="method-start">40338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">video</span>
+                <span class="method-start">41953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getYourQuote_InContainer1</span>
+                <span class="method-start">42549 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.gunnerroofing.com.qa.gunnerroofing.com.Header</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeSite</span>
+                <span class="method-start">45741 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

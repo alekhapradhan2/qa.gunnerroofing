@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T11:44:38 IST" name="Suite" finished-at="2024-11-12T11:45:13 IST" duration-ms="35408">
+    <groups>
+    </groups>
+    <test started-at="2024-11-12T11:44:38 IST" name="Test" finished-at="2024-11-12T11:45:13 IST" duration-ms="35408">
+      <class name="qa.gunnerroofing.com.qa.gunnerroofing.com.Header">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:28 IST" name="launchUrl" finished-at="2024-11-12T11:44:38 IST" duration-ms="9363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="siteImage()[pri:0, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:38 IST" name="siteImage" finished-at="2024-11-12T11:44:39 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteImage -->
+        <test-method signature="services()[pri:1, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:40 IST" name="services" finished-at="2024-11-12T11:44:46 IST" duration-ms="6371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- services -->
+        <test-method signature="Resources()[pri:2, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:47 IST" name="Resources" finished-at="2024-11-12T11:44:52 IST" duration-ms="4694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resources -->
+        <test-method signature="ourWork()[pri:3, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:52 IST" name="ourWork" finished-at="2024-11-12T11:44:54 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourWork -->
+        <test-method signature="ContactUs()[pri:4, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:55 IST" name="ContactUs" finished-at="2024-11-12T11:44:56 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method signature="Financing()[pri:5, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:56 IST" name="Financing" finished-at="2024-11-12T11:44:58 IST" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Financing -->
+        <test-method signature="AboutUs()[pri:6, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:44:59 IST" name="AboutUs" finished-at="2024-11-12T11:45:00 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+        <test-method signature="MyAccount()[pri:7, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:45:01 IST" name="MyAccount" finished-at="2024-11-12T11:45:05 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount -->
+        <test-method signature="getQuoteinHeader()[pri:7, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:45:05 IST" name="getQuoteinHeader" finished-at="2024-11-12T11:45:08 IST" duration-ms="2637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getQuoteinHeader -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.Header@72c8e7b]" started-at="2024-11-12T11:45:14 IST" name="closeSite" finished-at="2024-11-12T11:45:14 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- qa.gunnerroofing.com.qa.gunnerroofing.com.Header -->
+      <class name="qa.gunnerroofing.com.qa.gunnerroofing.com.container1">
+        <test-method signature="slides()[pri:0, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.container1@4b8d604b]" started-at="2024-11-12T11:45:09 IST" name="slides" finished-at="2024-11-12T11:45:10 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slides -->
+        <test-method signature="video()[pri:1, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.container1@4b8d604b]" started-at="2024-11-12T11:45:10 IST" name="video" finished-at="2024-11-12T11:45:10 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video -->
+        <test-method signature="getYourQuote_InContainer1()[pri:2, instance:qa.gunnerroofing.com.qa.gunnerroofing.com.container1@4b8d604b]" started-at="2024-11-12T11:45:11 IST" name="getYourQuote_InContainer1" finished-at="2024-11-12T11:45:13 IST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getYourQuote_InContainer1 -->
+      </class> <!-- qa.gunnerroofing.com.qa.gunnerroofing.com.container1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
