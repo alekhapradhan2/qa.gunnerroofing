@@ -16,7 +16,7 @@ public class container1 extends launchSite {
 	
 	@Test(priority = 0)
 	public void slides()
-	{
+	{ 
 		driver.navigate().to(url);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         List<String> itemTexts = (List<String>) js.executeScript(
